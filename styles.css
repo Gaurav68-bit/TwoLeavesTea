@@ -852,15 +852,12 @@ border: 1px solid black;
 
 
 
-/*chatgptcode*/
 
 .cards-section-cards{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap: 1.5rem;
-    /* padding: 0 2rem; */
-    /* margin: 0; */
 }
 
 .cards-section-cards-container{
