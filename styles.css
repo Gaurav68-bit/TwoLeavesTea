@@ -822,6 +822,7 @@ border: 1px solid black;
     margin: 0 2rem;
     background-color: #2a2857;
     color: white;
+    border-radius: 1.5rem;
 }
 .footer-links-first{
     display: flex;
@@ -836,4 +837,88 @@ border: 1px solid black;
     display: flex;
     justify-content: start;
     margin-left: 5rem;
+}
+.footer-links-second-first{
+    margin: 2rem 2rem 0 0;
+}
+.footer-links-second-second{
+    margin: 2rem 2rem;
+}
+
+
+
+
+
+
+
+
+/*chatgptcode*/
+
+.cards-section-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1.5rem;
+    /* padding: 0 2rem; */
+    /* margin: 0; */
+}
+
+.cards-section-cards-container{
+    width: 100%;
+}
+
+.cards-section-cards-one{
+    width: 100%;
+    height: auto;
+    min-height: 330px;
+}
+
+.cards-image{
+    transition: 0.4s ease;
+}
+
+
+
+.hero-section-text h1{
+    font-size: clamp(2.5rem, 8vw, 5.25rem);
+    line-height: 1;
+}
+
+.cards-section-heading{
+    font-size: clamp(2rem, 6vw, 4rem);
+    line-height: 1.1;
+}
+
+.discoverText{
+    font-size: clamp(2rem, 5vw, 3.8rem);
+    line-height: 1.1;
+}
+
+.main-section-born{
+    font-size: clamp(3rem, 10vw, 8rem);
+}
+
+.main-section-founder{
+    font-size: clamp(2rem, 5vw, 3.7rem);
+    line-height: 1.2;
+}
+
+.wholesale-partner-text-h2 h2{
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    line-height: 1.1;
+}
+
+.chai-latte{
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    line-height: 1.1;
+}
+
+.journal-text-main-text{
+    font-size: clamp(2rem, 5vw, 3.7rem);
+    line-height: 1.1;
+}
+
+.orange-box{
+    font-size: clamp(2rem, 5vw, 3.7rem);
+    line-height: 1.1;
 }
