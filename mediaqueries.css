@@ -1,0 +1,29 @@
+@media (max-width:768px){
+    .menu-btn{
+        display: flex;
+        align-items: center;
+    }
+    .header-left{
+        display: none;
+    }
+    .header-right-links{
+        display: none;
+    }
+    .hero-section{
+        background-image: url(https://www.twoleavestea.com/cdn/shop/files/AlpineBerry_mobile.webp?v=1774284087&width=1350.0);
+        background-size: cover;
+        background-position: center;
+    }
+    .header-logo{
+        margin-right: 5rem;
+    }
+    .hero-section-text{
+        align-items: center;
+        margin: 0 auto;
+    }
+    .hero-section-text h1{
+        font-size: 12px;
+        line-height:12px;
+    }
+
+}
